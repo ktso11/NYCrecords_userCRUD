@@ -1,8 +1,12 @@
 <h2>Add New User</h2>
-<form>
+<form class="divstyle">
   <b>Username: </b> <input name="username" value="username" [(ngModel)]="user.username" >
-  <b>First Name: </b>  <input name="firstname" value="first name" [(ngModel)]="user.firstname" >
+  <br>
+  <b>First Name: </b>  <input name="firstname" value="firstname" [(ngModel)]="user.firstname" >
+  <br>
   <b>Last Name: </b> <input name="lastname" value="lastname" [(ngModel)]="user.lastname" >
+  <br>
   <b>Email: </b> <input name="email" value="email" [(ngModel)]="user.email" >
+  <br>
   <button type="button" (click)="add()">Save</button>
 </form>
