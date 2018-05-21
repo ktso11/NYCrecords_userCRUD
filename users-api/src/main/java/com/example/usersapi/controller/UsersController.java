@@ -37,8 +37,8 @@ public class UsersController {
     @PatchMapping("/{userId}")
     public User updateUserById(@PathVariable Long userId, @RequestBody User userRequest) {
         User userFromDb = userRepository.findOne(userId);
-        userFromDb.setFirstName(userRequest.getFirstName());
-        userFromDb.setLastName(userRequest.getLastName());
+        userFromDb.setFirstname(userRequest.getFirstname());
+        userFromDb.setLastname(userRequest.getLastname());
         userFromDb.setEmail(userRequest.getEmail());
         return userRepository.save(userFromDb);
     }
