@@ -248,3 +248,4 @@ org.springframework.dao.EmptyResultDataAccessException: No class com.example.use
 	at java.lang.Thread.run(Thread.java:748) [na:1.8.0_172]
 
 [2m2018-05-21 23:44:22.260[0;39m [32m INFO[0;39m [35m65[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
+[2m2018-05-21 23:49:22.276[0;39m [32m INFO[0;39m [35m65[0;39m [2m---[0;39m [2m[trap-executor-0][0;39m [36mc.n.d.s.r.aws.ConfigClusterResolver     [0;39m [2m:[0;39m Resolving eureka endpoints via configuration
