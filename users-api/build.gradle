@@ -34,6 +34,7 @@ dependencies {
 	compile 'org.springframework.boot:spring-boot-starter-web'
 	compileOnly 'org.projectlombok:lombok'
 	runtime 'org.postgresql:postgresql'
+	compile 'com.google.guava:guava:25.0-jre'
 	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
 	testCompile 'org.seleniumhq.selenium:selenium-java:3.9.1'
 	testCompile 'org.seleniumhq.selenium:selenium-api:3.9.1'
@@ -41,4 +42,5 @@ dependencies {
 	testCompile 'org.seleniumhq.selenium:selenium-chrome-driver:3.9.1'
 	testCompile 'org.seleniumhq.selenium:selenium-support:3.9.1'
 	testCompile 'com.codeborne:selenide:4.10.01'
+	testCompile 'org.springframework.boot:spring-boot-starter-test'
 }

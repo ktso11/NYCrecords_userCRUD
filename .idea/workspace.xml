@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7662058a-2f14-4822-a68a-f5da9965ad73" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/flyway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flyway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,7 +22,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/users-api/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="388">
@@ -32,9 +31,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/flyway/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="DemoApplicationTests.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/DemoApplicationTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
         </entry>
       </file>
       <file leaf-file-name="UsersController.java" pinned="false" current-in-tab="false">
@@ -68,15 +71,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="45">
               <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UsersApiApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/UsersApiApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -150,12 +144,13 @@
         <option value="$PROJECT_DIR$/flyway/sql/V1__Create_user_table.sql" />
         <option value="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controller/UsersController.java" />
         <option value="$PROJECT_DIR$/users-api/build.gradle" />
+        <option value="$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/userApiFeatureTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="508" />
-    <option name="y" value="24" />
+    <option name="y" value="39" />
     <option name="width" value="772" />
     <option name="height" value="742" />
   </component>
@@ -176,6 +171,57 @@
               <item name="nyc-records" type="b2602c69:ProjectViewProjectNode" />
               <item name="nyc-records" type="462c0819:PsiDirectoryNode" />
               <item name="users-api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nyc-records" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nyc-records" type="462c0819:PsiDirectoryNode" />
+              <item name="users-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nyc-records" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nyc-records" type="462c0819:PsiDirectoryNode" />
+              <item name="users-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nyc-records" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nyc-records" type="462c0819:PsiDirectoryNode" />
+              <item name="users-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nyc-records" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nyc-records" type="462c0819:PsiDirectoryNode" />
+              <item name="users-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nyc-records" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nyc-records" type="462c0819:PsiDirectoryNode" />
+              <item name="users-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="nyc-records" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nyc-records" type="462c0819:PsiDirectoryNode" />
+              <item name="users-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="example" type="462c0819:PsiDirectoryNode" />
+              <item name="usersapi" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -259,7 +305,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="508" y="24" width="772" height="742" extended-state="0" />
+    <frame x="508" y="39" width="772" height="742" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -529,6 +575,26 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="388">
           <caret line="35" column="39" selection-start-line="35" selection-start-column="39" selection-end-line="35" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/userApiFeatureTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+          <folding>
+            <element signature="e#236#237#0" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#319#320#0" expanded="true" />
+            <element signature="e#361#362#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/DemoApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
