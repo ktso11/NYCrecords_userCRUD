@@ -1,0 +1,4 @@
+INSERT INTO USERS
+	(USERNAME, FIRSTNAME, LASTNAME, SUBSCRIPTION)
+    VALUES
+    ('Admin', 'Katie', 'So','Social Awareness');
