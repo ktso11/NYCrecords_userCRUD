@@ -15,6 +15,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 import java.util.stream.Stream;
 
 //import static io.restassured.RestAssured.when;
+import static com.codeborne.selenide.Condition.appear;
+import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.$$;
@@ -76,5 +78,19 @@ public class UserApiFeatureTest {
         $("#user-" + firstUserId + "-firstname").shouldHave(text("Ima"));
         $("#user-" + firstUserId + "-lastname").shouldHave(text("Person"));
         $("#user-" + firstUserId + "-email").shouldHave(text("something@soemthing"));
+        //Test if there is edit button
+        $("#user-" + firstUserId + "-username").should(exist);
+        $("#edit-user-" + firstUserId).click();
+        $("#edit-user-form").should(appear);
+        $("#edit-user-first-name").clear();
+        $("#edit-user-first-name").sendKeys("new first name");
+        $("#edit-user-last-name").clear();
+        $("#edit-user-last-name").sendKeys("new last name");
+        $("#edit-user-submit").click();
+        $("#users-wrapper").should(appear);
+        $("#user-" + firstUserId + "-firstname").shouldHave(text("new first name"));
+        $("#user-" + firstUserId + "-lastname").shouldHave(text("new last name"));
+
+
     }
 }

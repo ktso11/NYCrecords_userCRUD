@@ -3,7 +3,7 @@ import lombok.*;
 import javax.persistence.*;
 @Data
 @AllArgsConstructor
-@NoArgsConstructor @Getter @Setter
+ @Getter @Setter
 @Entity
 @Table(name = "USERS")
 public class User {
@@ -22,7 +22,7 @@ public class User {
 
     @Column(name = "EMAIL")
     private String email;
-
+    public User(){}
     public User(String username, String firstname, String lastname, String email) {
         this.username = username;
         this.firstname = firstname;

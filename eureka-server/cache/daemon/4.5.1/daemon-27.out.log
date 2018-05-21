@@ -478,3 +478,26 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2018-05-21 21:27:10.806  INFO 65 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
 2018-05-21 21:27:35.369  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2018-05-21 21:28:35.370  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:29:35.371  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:30:35.372  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:30:59.015  INFO 65 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:30:59.545  INFO 65 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:31:03.795  INFO 65 --- [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=false)
+2018-05-21 21:31:03.813  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:31:04.313  INFO 65 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
+2018-05-21 21:31:04.318  INFO 65 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=true)
+2018-05-21 21:31:35.373  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:32:35.373  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:33:35.374  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:34:35.374  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:35:31.006  INFO 65 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-05-21 21:35:35.374  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:36:35.375  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:37:35.377  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:38:35.378  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:39:35.378  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:40:35.379  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:41:35.383  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2018-05-21 21:42:35.384  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:43:35.385  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:44:35.386  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
