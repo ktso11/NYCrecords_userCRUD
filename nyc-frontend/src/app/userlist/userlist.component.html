@@ -1,12 +1,12 @@
 <div id="users-wrapper" *ngFor="let user of users">
-  <div id={{user.id}} data-user-display>
+  <div id={{user.id}} data-user-display class="divstyle">
   <b>Username: </b> <span id="user-{{user.id}}-username">{{user.username}}</span>
   <br>
   <b>First Name: </b> <span id="user-{{user.id}}-firstname">{{user.firstname}}</span>
   <br>
   <b>Last Name: </b> <span id="user-{{user.id}}-lastname">{{user.lastname}}</span>
   <br>
-  <b>Email</b> <span id="user-{{user.id}}-email">{{user.email}}</span>
+  <b>Email:</b> <span id="user-{{user.id}}-email">{{user.email}}</span>
   <br>
   <button id="edit-user-{{user.id}}" [routerLink]="['/users', user.id]" type="button"> Edit </button>
   </div>

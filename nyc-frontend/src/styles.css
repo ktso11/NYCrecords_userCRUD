@@ -1,1 +1,45 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+a:link {
+    color: white;
+}
+
+a:visited {
+    color: white;
+}
+
+a:active {
+    color: white;
+}
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.divstyle {
+
+        background: #9AD2CF;
+        color: gray;
+        padding: 1.5em;
+        border-radius: .5em;
+        width: 70%;
+        margin: 1em auto;
+        letter-spacing: .1em;
+    
+}
+button{
+    margin-right: 1em;
+    background-color: black;
+    padding: .5em .5em;
+    border-radius: .5em;
+    color: white;
+    font-size: 1em;
+    margin-bottom: .75em;
+    border: none;
+}
