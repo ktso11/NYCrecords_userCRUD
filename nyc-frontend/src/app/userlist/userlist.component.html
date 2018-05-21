@@ -1,3 +1,18 @@
-<p>
-  userlist works!
-</p>
+<div *ngFor="let user of users">
+  
+  <b>Username: </b>
+  <!-- <a [routerLink]="['/users', user.id]"> -->
+    {{user.username}}
+  <!-- </a> -->
+  <br>
+  <b>First Name: </b> {{user.firstname}}
+  <br>
+  <b>Last Name: </b> {{user.lastname}}
+  <br>
+  <b>Email</b> {{user.email}}
+  <br>
+  <button [routerLink]="['/users', user.id]" type="button"> Edit </button>
+  <hr>
+</div>
+
+  

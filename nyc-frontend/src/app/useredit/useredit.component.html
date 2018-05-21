@@ -1,3 +1,16 @@
-<p>
-  useredit works!
-</p>
+
+
+<form id="user form">
+  <h2>Edit {{user.username}}</h2>
+
+
+    <b>First Name: </b><input placeholder="{{user.firstname}}" [(ngModel)]="user.firstname" name="firstname">  
+    <br>
+    <b>Last Name: </b><input placeholder="{{user.lastname}}" [(ngModel)]="user.lastname" name="lastname">
+    <br>
+    <b>Email: </b> <input placeholder="{{user.email}}" [(ngModel)]="user.email" name="email">
+    <br>
+    <button (click)="save()" type="button">Save</button>
+    <button (click)="remove()" type="button"> Delete</button>
+    
+</form>

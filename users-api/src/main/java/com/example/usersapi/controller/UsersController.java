@@ -39,7 +39,7 @@ public class UsersController {
         User userFromDb = userRepository.findOne(userId);
         userFromDb.setFirstname(userRequest.getFirstname());
         userFromDb.setLastname(userRequest.getLastname());
-        userFromDb.setSubscription(userRequest.getSubscription());
+        userFromDb.setEmail(userRequest.getEmail());
         return userRepository.save(userFromDb);
     }
 

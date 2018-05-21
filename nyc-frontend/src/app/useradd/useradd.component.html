@@ -1,3 +1,8 @@
-<p>
-  useradd works!
-</p>
+<h2>Add New User</h2>
+<form>
+  <b>Username: </b> <input name="username" value="username" [(ngModel)]="user.username" >
+  <b>First Name: </b>  <input name="firstname" value="first name" [(ngModel)]="user.firstname" >
+  <b>Last Name: </b> <input name="lastname" value="lastname" [(ngModel)]="user.lastname" >
+  <b>Email: </b> <input name="email" value="email" [(ngModel)]="user.email" >
+  <button type="button" (click)="add()">Save</button>
+</form>

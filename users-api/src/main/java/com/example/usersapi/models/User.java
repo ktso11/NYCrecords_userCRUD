@@ -20,6 +20,6 @@ public class User {
     @Column(name = "LASTNAME")
     private String lastname;
 
-    @Column(name = "SUBSCRIPTION")
-    private String subscription;
+    @Column(name = "EMAIL")
+    private String email;
 }

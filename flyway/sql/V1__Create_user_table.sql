@@ -4,5 +4,5 @@ create table USERS (
     USERNAME varchar(100) NOT NULL,
     FIRSTNAME varchar(100) NOT NULL,
     LASTNAME varchar(100) NOT NULL,
-    SUBSCRIPTION varchar(100) NOT NULL
+    EMAIL varchar(100) NOT NULL
 );

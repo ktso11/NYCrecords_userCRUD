@@ -1,4 +1,8 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute, Router } from '@angular/router';
+import { NgForm } from '@angular/forms';
+import { UserService } from '../user.service';
+import { Subscription } from 'rxjs';
 
 @Component({
   selector: 'app-useredit',
@@ -6,10 +10,32 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./useredit.component.css']
 })
 export class UsereditComponent implements OnInit {
-
-  constructor() { }
+  user: any = {};
+  sub: Subscription;
+  id: any;
+  constructor(
+    private router: Router,
+    private route: ActivatedRoute,
+    private userService: UserService
+  ) { }
 
   ngOnInit() {
+    this.sub = this.route.params.subscribe(params => {
+      const id = params['id'];
+      this.userService.get(id)
+      .subscribe(response =>{this.user = response.json()})
+      console.log(`Grabbed user ID: '${id}'`);
+    });
+  }
+
+  remove(){
+    this.userService.remove(this.user.id).subscribe(respond=>
+      { this.router.navigate(['/users'])})
+  }
+
+  save(){
+    this.userService.save(this.user).subscribe(respond=>
+      { this.router.navigate(['/users'])})
   }
 
 }

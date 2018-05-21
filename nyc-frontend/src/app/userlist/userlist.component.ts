@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Http } from '@angular/http';
+
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-userlist',
@@ -7,12 +8,18 @@ import { Http } from '@angular/http';
   styleUrls: ['./userlist.component.css']
 })
 export class UserlistComponent implements OnInit {
-
+  users: Array<any>;
   constructor(
-    private http: Http
+    private userService: UserService
+
   ) { }
 
+
+
   ngOnInit() {
+    this.userService.getAllUsers()
+    .subscribe(response =>{this.users = response.json()})
   }
+
 
 }

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { UserService } from '../user.service';
 
 @Component({
   selector: 'app-useradd',
@@ -6,10 +8,19 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./useradd.component.css']
 })
 export class UseraddComponent implements OnInit {
-
-  constructor() { }
+user = {
+  username:'',
+  firstname: '',
+  lastname: '',
+  email: ''
+}
+  constructor(private userService: UserService,private router:Router){}
 
   ngOnInit() {
+  }
+  add(){
+    this.userService.add(this.user).subscribe(respond=>
+    { this.router.navigate(['/users'])})
   }
 
 }
