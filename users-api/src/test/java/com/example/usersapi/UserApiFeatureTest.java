@@ -72,12 +72,12 @@ public class UserApiFeatureTest {
         open("http://localhost:4200/users");
         $$("[data-user-display]").shouldHave(CollectionCondition.size(2));
 
-
         long firstUserId = firstUser.getId();
         $("#user-" + firstUserId + "-username").shouldHave(text("username1"));
         $("#user-" + firstUserId + "-firstname").shouldHave(text("Ima"));
         $("#user-" + firstUserId + "-lastname").shouldHave(text("Person"));
         $("#user-" + firstUserId + "-email").shouldHave(text("something@soemthing"));
+
         //Test if there is edit button
         $("#user-" + firstUserId + "-username").should(exist);
         $("#edit-user-" + firstUserId).click();
@@ -86,10 +86,13 @@ public class UserApiFeatureTest {
         $("#edit-user-first-name").sendKeys("new first name");
         $("#edit-user-last-name").clear();
         $("#edit-user-last-name").sendKeys("new last name");
+        $("#edit-user-email").clear();
+        $("#edit-user-email").sendKeys("new email");
         $("#edit-user-submit").click();
         $("#users-wrapper").should(appear);
         $("#user-" + firstUserId + "-firstname").shouldHave(text("new first name"));
         $("#user-" + firstUserId + "-lastname").shouldHave(text("new last name"));
+        $("#user-" + firstUserId + "-email").shouldHave(text("new email"));
 
 
     }

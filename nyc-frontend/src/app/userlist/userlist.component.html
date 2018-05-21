@@ -1,4 +1,4 @@
-<div *ngFor="let user of users">
+<div id="users-wrapper" *ngFor="let user of users">
   <div id={{user.id}} data-user-display>
   <b>Username: </b> <span id="user-{{user.id}}-username">{{user.username}}</span>
   <br>
@@ -8,7 +8,7 @@
   <br>
   <b>Email</b> <span id="user-{{user.id}}-email">{{user.email}}</span>
   <br>
-  <button [routerLink]="['/users', user.id]" type="button"> Edit </button>
+  <button id="edit-user-{{user.id}}" [routerLink]="['/users', user.id]" type="button"> Edit </button>
   </div>
 </div>
 

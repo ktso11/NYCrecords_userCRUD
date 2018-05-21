@@ -501,3 +501,61 @@ Caused by: java.net.SocketTimeoutException: Read timed out
 2018-05-21 21:42:35.384  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2018-05-21 21:43:35.385  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2018-05-21 21:44:35.386  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:45:30.092  INFO 65 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:45:30.629  INFO 65 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:45:35.386  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:45:38.911  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=false)
+2018-05-21 21:45:38.929  INFO 65 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:45:39.430  INFO 65 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
+2018-05-21 21:45:39.431  INFO 65 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=true)
+2018-05-21 21:46:35.386  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:47:35.387  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:48:00.405  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:48:00.927  INFO 65 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:48:09.332  INFO 65 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=false)
+2018-05-21 21:48:09.359  INFO 65 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:48:09.852  INFO 65 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
+2018-05-21 21:48:09.857  INFO 65 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=true)
+2018-05-21 21:48:35.388  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:49:35.390  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2018-05-21 21:50:31.005  INFO 65 --- [hresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 6
+2018-05-21 21:50:35.390  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:50:48.075  INFO 65 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:50:48.186  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:50:57.064  INFO 65 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=false)
+2018-05-21 21:50:57.071  INFO 65 --- [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:50:57.585  INFO 65 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
+2018-05-21 21:50:57.587  INFO 65 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=true)
+2018-05-21 21:51:35.391  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:51:49.881  INFO 65 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:51:50.404  INFO 65 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:51:58.511  INFO 65 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=false)
+2018-05-21 21:51:58.532  INFO 65 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:51:59.032  INFO 65 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
+2018-05-21 21:51:59.037  INFO 65 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=true)
+2018-05-21 21:52:35.392  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:53:35.393  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:54:35.394  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:55:35.396  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2018-05-21 21:55:53.762  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:55:54.285  INFO 65 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:55:59.913  INFO 65 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:56:00.425  WARN 65 --- [nio-8761-exec-7] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: cancel failed because Lease is not registered for: UNKNOWN/10.1.5.199:9090
+2018-05-21 21:56:00.430  INFO 65 --- [nio-8761-exec-7] c.n.eureka.resources.InstanceResource    : Not Found (Cancel): UNKNOWN - 10.1.5.199:9090
+2018-05-21 21:56:00.448  WARN 65 --- [get_localhost-8] c.n.eureka.cluster.ReplicationTask       : The replication of task UNKNOWN/10.1.5.199:9090:Cancel@localhost failed with response code 404
+2018-05-21 21:56:00.450  WARN 65 --- [get_localhost-8] c.netflix.eureka.cluster.PeerEurekaNode  : UNKNOWN/10.1.5.199:9090:Cancel@localhost: missing entry.
+2018-05-21 21:56:18.315  INFO 65 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:56:18.424  INFO 65 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:56:27.395  INFO 65 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=false)
+2018-05-21 21:56:27.428  INFO 65 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:56:27.920  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
+2018-05-21 21:56:27.924  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=true)
+2018-05-21 21:56:35.396  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:57:35.397  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-05-21 21:57:43.597  INFO 65 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=false)
+2018-05-21 21:57:44.119  INFO 65 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status UP (replication=true)
+2018-05-21 21:57:51.543  INFO 65 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=false)
+2018-05-21 21:57:51.556  INFO 65 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=false)
+2018-05-21 21:57:52.076  INFO 65 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance UNKNOWN/10.1.5.199:9090 with status DOWN (replication=true)
+2018-05-21 21:57:52.086  INFO 65 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Cancelled instance UNKNOWN/10.1.5.199:9090 (replication=true)
+2018-05-21 21:58:35.397  INFO 65 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
