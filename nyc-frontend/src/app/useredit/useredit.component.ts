@@ -23,7 +23,7 @@ export class UsereditComponent implements OnInit {
     this.sub = this.route.params.subscribe(params => {
       const id = params['id'];
       this.userService.get(id)
-      .subscribe(response =>{this.user = response.json()})
+      .subscribe(response =>{this.user = response})
       console.log(`Grabbed user ID: '${id}'`);
     });
   }
