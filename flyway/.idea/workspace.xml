@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/conf/flyway.conf">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="30">
-              <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -85,11 +85,6 @@
             <path>
               <item name="flyway" type="b2602c69:ProjectViewProjectNode" />
               <item name="flyway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="flyway" type="b2602c69:ProjectViewProjectNode" />
-              <item name="flyway" type="462c0819:PsiDirectoryNode" />
-              <item name="conf" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="flyway" type="b2602c69:ProjectViewProjectNode" />
@@ -178,7 +173,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="527" y="25" width="789" height="742" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -214,7 +208,7 @@
     <entry file="file://$PROJECT_DIR$/conf/flyway.conf">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="24" lean-forward="true" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
         </state>
       </provider>
     </entry>

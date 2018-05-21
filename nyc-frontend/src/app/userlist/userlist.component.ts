@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import {User} from '../types/user';
 
 import { UserService } from '../user.service';
 
@@ -8,7 +9,8 @@ import { UserService } from '../user.service';
   styleUrls: ['./userlist.component.css']
 })
 export class UserlistComponent implements OnInit {
-  users: Array<any>;
+  // users: Array<any>;
+  users: User[];
   constructor(
     private userService: UserService
 
@@ -18,7 +20,7 @@ export class UserlistComponent implements OnInit {
 
   ngOnInit() {
     this.userService.getAllUsers()
-    .subscribe(response =>{this.users = response.json()})
+    .subscribe(response =>{this.users = response})
   }
 
 
