@@ -31,3 +31,15 @@ How to Start:
 - in a new terminal, cd nyc-frontend
 - npm start
 - open chrome and navigate to http://localhost:4200/
+
+To Run Test (unit):
+- cd nyc-records
+- cd nyc-frontend
+- ./node_modules/karma/bin/karma init
+- npm test
+- make sure you have jasmine and karma installed
+
+To Run Test (feature):
+- cd nyc-records
+- idea .
+- test is located in user-api/src/test/java/com/example/usersapi/UserApiFeatureTest.Java
