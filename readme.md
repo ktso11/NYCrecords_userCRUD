@@ -43,3 +43,7 @@ To Run Test (feature):
 - cd nyc-records
 - idea .
 - test is located in user-api/src/test/java/com/example/usersapi/UserApiFeatureTest.Java
+
+
+Trello:
+https://trello.com/b/MNIEQDWz/nyc-records 
