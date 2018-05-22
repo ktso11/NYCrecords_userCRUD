@@ -35,22 +35,17 @@ describe('UsersService', () =>{
     it('getAllUsers() should return success', async(() => {
       service.getAllUsers()
       .subscribe(res => {
-      // When observable resolves, result should match test data
+      
         expect(res).toEqual(this.dummyUsers);
         expect(res.length).toBe(1);
       });
-  
-  // The following `expectOne()` will match the request's URL.    
+
       let mock = httpMock.expectOne('/api/users');
 
-      // Assert that the request is a GET.
       expect(mock.request.method).toBe("GET");
       
-      // Respond with mock data, causing Observable to resolve.
-    // Subscribe callback asserts that correct data was returned.
       mock.flush(this.dummyUsers);
       
-      // Finally, assert that there are no outstanding requests.
       httpMock.verify();
     }))
 });
