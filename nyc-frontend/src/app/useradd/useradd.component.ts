@@ -8,12 +8,7 @@ import {User} from '../types/user';
   styleUrls: ['./useradd.component.css']
 })
 export class UseraddComponent implements OnInit {
-// user = {
-//   username:'',
-//   firstname: '',
-//   lastname: '',
-//   email: ''
-// }
+
 user: User;
   constructor(private userService: UserService,private router:Router){
     this.user = new User();
