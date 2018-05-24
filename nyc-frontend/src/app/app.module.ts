@@ -9,6 +9,7 @@ import { HttpModule } from '@angular/http';
 import { RouterModule, Routes } from '@angular/router';
 import { UseraddComponent } from './useradd/useradd.component';
 import { UsereditComponent } from './useredit/useredit.component';
+import { NoticelistComponent } from './noticelist/noticelist.component';
 
 const appRoutes: Routes = [
 
@@ -30,7 +31,8 @@ const appRoutes: Routes = [
     AppComponent,
     UserlistComponent,
     UseraddComponent,
-    UsereditComponent
+    UsereditComponent,
+    NoticelistComponent
   ],
   imports: [
     BrowserModule,
