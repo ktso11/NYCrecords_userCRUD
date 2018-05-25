@@ -33,4 +33,9 @@ export class UserService {
     updateduser
     );
   }
+
+  
+  getNotices(){
+    return this.httpClient.get('https://data.cityofnewyork.us/resource/buex-bi6w.json?$limit=20');
+  }
 }
