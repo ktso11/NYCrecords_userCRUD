@@ -1,6 +1,7 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {User} from './types/user';
+import {environment} from './../environments/environment';
 
 @Injectable({
   providedIn: 'root'
@@ -12,7 +13,8 @@ export class UserService {
   ) { }
 
   getAllUsers() {
-    return this.httpClient.get<User[]>('/api/users');
+    // return this.httpClient.get<User[]>('/api/users');
+    return this.httpClient.get<User[]>(`${environment.apiHost}/api/users`);
   }
 
   get(id: string) {
