@@ -1,3 +1,16 @@
-<p>
-  noticelist works!
-</p>
+<div id="notice-wrapper" *ngFor="let notice of notices">
+  <div id={{notice.request_id}} data-user-display class="divstyle">
+  <b>Title: </b> {{notice.short_title}}
+  <br>
+  <b>Section: </b>{{notice.section_name}}
+  <br>
+  <b>Agency: </b>{{notice.agency_name}}
+  <br>
+  <b>Start Date: </b>{{notice.start_date}}
+  <br>
+  <b>End Date: </b>{{notice.end_date}}
+
+  </div>
+</div>
+
+  

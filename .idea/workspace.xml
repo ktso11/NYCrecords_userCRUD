@@ -32,8 +32,8 @@
       <file leaf-file-name="UserApiFeatureTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/UserApiFeatureTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-420">
-              <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+            <state relative-caret-position="166">
+              <caret line="77" column="35" lean-forward="true" selection-end-line="98" selection-end-column="3" />
             </state>
           </provider>
         </entry>
@@ -152,12 +152,13 @@
         <option value="$PROJECT_DIR$/users-api/src/main/java/com/example/usersapi/controller/UsersController.java" />
         <option value="$PROJECT_DIR$/users-api/build.gradle" />
         <option value="$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/userApiFeatureTest.java" />
+        <option value="$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/UserApiFeatureTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="518" />
-    <option name="y" value="39" />
+    <option name="x" value="628" />
+    <option name="y" value="23" />
     <option name="width" value="689" />
     <option name="height" value="742" />
   </component>
@@ -312,8 +313,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="476" y="23" width="947" height="742" extended-state="0" />
-    <editor active="true" />
+    <frame x="628" y="23" width="689" height="742" extended-state="0" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -327,7 +327,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26082367" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35849056" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -662,8 +662,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/users-api/src/test/java/com/example/usersapi/UserApiFeatureTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-420">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
+        <state relative-caret-position="166">
+          <caret line="77" column="35" lean-forward="true" selection-end-line="98" selection-end-column="3" />
         </state>
       </provider>
     </entry>

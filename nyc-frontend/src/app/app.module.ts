@@ -24,6 +24,10 @@ const appRoutes: Routes = [
   {
     path: 'adduser',
     component: UseraddComponent
+  },
+  {
+    path: 'noticelist',
+    component: NoticelistComponent
   }
 ];
 @NgModule({
