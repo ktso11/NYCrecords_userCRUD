@@ -24,7 +24,7 @@ public class ZuulGatewayApplication {
     }
 
     @Bean
-    private CorsFilter corsFilter() {
+    public CorsFilter corsFilter() {
 
         final UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         final CorsConfiguration config = new CorsConfiguration();
@@ -36,3 +36,4 @@ public class ZuulGatewayApplication {
         return new CorsFilter(source);
     }
 }
+
