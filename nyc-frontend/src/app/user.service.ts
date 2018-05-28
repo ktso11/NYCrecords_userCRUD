@@ -13,8 +13,8 @@ export class UserService {
   ) { }
 
   getAllUsers() {
-    // return this.httpClient.get<User[]>('/api/users');
-    return this.httpClient.get<User[]>(`${environment.apiHost}/api/users`);
+    return this.httpClient.get<User[]>('/api/users');
+    // return this.httpClient.get<User[]>(`${environment.apiHost}/api/users`);
   }
 
   get(id: string) {

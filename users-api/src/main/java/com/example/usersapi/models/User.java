@@ -23,6 +23,9 @@ public class User {
     @Column(name = "EMAIL")
     private String email;
 
+    @Column(name = "FAV_NOTICES")
+    private String fav_notices;
+
     public User(){}
 ////
 ////    public User(String username, String firstname, String lastname, String email) {
