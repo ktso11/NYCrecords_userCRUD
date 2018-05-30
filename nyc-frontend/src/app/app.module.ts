@@ -13,6 +13,7 @@ import { NoticelistComponent } from './noticelist/noticelist.component';
 import { NoticeComponent } from './notice/notice.component';
 import { FavComponent } from './fav/fav.component';
 import { FavlistComponent } from './favlist/favlist.component';
+import { FavsortComponent } from './favsort/favsort.component';
 
 const appRoutes: Routes = [
 
@@ -44,6 +45,10 @@ const appRoutes: Routes = [
     path: 'notice/:id',
     component: NoticeComponent
   }
+  ,{
+    path: 'favsort/:id',
+    component: FavsortComponent
+  }
 ];
 @NgModule({
   declarations: [
@@ -54,7 +59,8 @@ const appRoutes: Routes = [
     NoticelistComponent,
     NoticeComponent,
     FavComponent,
-    FavlistComponent
+    FavlistComponent,
+    FavsortComponent
   ],
   imports: [
     BrowserModule,

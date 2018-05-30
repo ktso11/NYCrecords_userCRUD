@@ -28,13 +28,10 @@ export class FavComponent implements OnInit {
     this.sub = this.route.params.subscribe(params => {
       // const id = params['id'];
       const id = this.notice_id
-      console.log("woow");
       this.userService.getOneAPI(id)
       .subscribe(response =>{this.fav = response.json()[0]
         console.log(this.fav)
-  
       })
-      
     });
 
 }

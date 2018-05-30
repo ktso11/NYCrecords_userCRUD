@@ -21,6 +21,11 @@ public class NoticeController {
         return noticeRepository.findOne(noticeId);
     }
 
+    @GetMapping("/{noticeNoticeId}")
+    public Notice findnoticeByNoticeId(@PathVariable Long noticeNoticeId) {
+        return noticeRepository.findByNoticeid(noticeNoticeId);
+    }
+
     @DeleteMapping("/{userId}")
     public HttpStatus deleteNoticeById(@PathVariable Long noticeId) {
         noticeRepository.delete(noticeId);

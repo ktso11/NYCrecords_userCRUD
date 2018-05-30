@@ -25,12 +25,5 @@ export class FavlistComponent implements OnInit {
     .subscribe(response =>{this.favs = response});
   
 }
-    callapi(){
-      const id = document.querySelector('.grabme').id
-      this.sub = this.route.params.subscribe(params => {
-      this.userService.getOneAPI(id)
-      .subscribe(response =>{this.notice = response})
-        console.log(`Grabbed user ID: '${id}'`);
-    })
-    } 
+
   }

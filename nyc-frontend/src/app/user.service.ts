@@ -58,7 +58,9 @@ export class UserService {
 
   getFavNotices(){
     return this.httpClient.get(`/api/notices/`)
-    
+  }
+  sortNotice(noticeid: string) {
+    return this.httpClient.get(`/api/notices/?noticeid=${noticeid}`);
   }
 
   //create a method to get one single API
