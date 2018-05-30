@@ -24,11 +24,10 @@ export class UsereditComponent implements OnInit {
       const id = params['id'];
       this.userService.get(id)
       .subscribe(response =>{this.user = response})
-      console.log(`Grabbed user ID: '${id}'`);
+      // console.log(`Grabbed user ID: '${id}'`);
 
     });
   }
-
   remove(){
     this.userService.remove(this.user.id).subscribe(respond=>
       { this.router.navigate(['/users'])})

@@ -1,0 +1,25 @@
+
+  <div id={{note.request_id}} data-user-display class="divstyle" *ngIf='note'>
+  <b>Short Title: </b> {{note.short_title}} {{user_id}}
+  <br>
+  <b>Section: </b>{{note.section_name}}
+  <br>
+  <b>Agency: </b>{{note.agency_name}}
+  <br>
+  <b>Start Date: </b>{{note.start_date}}
+  <br>
+  <b>End Date: </b>{{note.end_date}}
+  <br>
+  <b>Category Description: </b>{{note.category_description}}
+  <br>
+
+  <b>Type: </b>{{note.type_of_notice_description}}
+  <br>
+  <b>ID: </b>
+  <span> {{note.request_id}} </span>
+
+  <br>
+  <button type="button" (click)="addNotices()">Add To Fav</button>
+
+
+</div>

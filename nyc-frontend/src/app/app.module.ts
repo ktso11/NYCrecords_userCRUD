@@ -10,6 +10,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { UseraddComponent } from './useradd/useradd.component';
 import { UsereditComponent } from './useredit/useredit.component';
 import { NoticelistComponent } from './noticelist/noticelist.component';
+import { NoticeComponent } from './notice/notice.component';
 
 const appRoutes: Routes = [
 
@@ -28,6 +29,10 @@ const appRoutes: Routes = [
   {
     path: 'noticelist',
     component: NoticelistComponent
+  },
+  {
+    path: 'noticelist/:id',
+    component: NoticeComponent
   }
 ];
 @NgModule({
@@ -36,7 +41,8 @@ const appRoutes: Routes = [
     UserlistComponent,
     UseraddComponent,
     UsereditComponent,
-    NoticelistComponent
+    NoticelistComponent,
+    NoticeComponent
   ],
   imports: [
     BrowserModule,

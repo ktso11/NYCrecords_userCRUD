@@ -36,8 +36,14 @@ export class UserService {
     );
   }
 
-  
   getNotices(){
-    return this.httpClient.get('https://data.cityofnewyork.us/resource/buex-bi6w.json?$limit=20');
+    return this.httpClient.get('https://data.cityofnewyork.us/resource/buex-bi6w.json?TypeOfNoticeDescription=Solicitation&$limit=10');
+  }
+  getOneNotice(id: string) {
+    return this.httpClient.get(`/api/notices/${id}`);
+  }
+
+  addNotices(fav){
+    return this.httpClient.post('/api/notices',fav);
   }
 }
