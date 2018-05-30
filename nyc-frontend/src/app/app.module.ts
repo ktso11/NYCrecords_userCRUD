@@ -10,6 +10,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { UseraddComponent } from './useradd/useradd.component';
 import { UsereditComponent } from './useredit/useredit.component';
 import { NoticelistComponent } from './noticelist/noticelist.component';
+import { NoticeComponent } from './notice/notice.component';
+import { FavComponent } from './fav/fav.component';
+import { FavlistComponent } from './favlist/favlist.component';
+import { FavsortComponent } from './favsort/favsort.component';
 
 const appRoutes: Routes = [
 
@@ -28,6 +32,22 @@ const appRoutes: Routes = [
   {
     path: 'noticelist',
     component: NoticelistComponent
+  },
+  {
+    path: 'noticelist/:id',
+    component: NoticeComponent
+  }
+  ,{
+    path: 'favlist',
+    component: FavlistComponent
+  }
+  ,{
+    path: 'notice/:id',
+    component: NoticeComponent
+  }
+  ,{
+    path: 'favsort/:id',
+    component: FavsortComponent
   }
 ];
 @NgModule({
@@ -36,7 +56,11 @@ const appRoutes: Routes = [
     UserlistComponent,
     UseraddComponent,
     UsereditComponent,
-    NoticelistComponent
+    NoticelistComponent,
+    NoticeComponent,
+    FavComponent,
+    FavlistComponent,
+    FavsortComponent
   ],
   imports: [
     BrowserModule,

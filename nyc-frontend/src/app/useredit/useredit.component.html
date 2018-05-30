@@ -10,5 +10,10 @@
     <br>
     <button id="edit-user-submit" (click)="save()" type="button">Save</button>
     <button (click)="remove()" type="button"> Delete</button>
-    
+    <button id="addnotices" (click)="displaynotice()" type="button"> Add Notices</button>
 </form>
+
+
+<div id="noticelist" *ngIf="noticehidden">
+    <app-noticelist></app-noticelist>
+</div>

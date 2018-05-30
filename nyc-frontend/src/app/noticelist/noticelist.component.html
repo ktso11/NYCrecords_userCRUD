@@ -1,6 +1,6 @@
-<div id="notice-wrapper" *ngFor="let notice of notices">
+<!-- <div id="notice-wrapper" *ngFor="let notice of notices">
   <div id={{notice.request_id}} data-user-display class="divstyle">
-  <b>Title: </b> {{notice.short_title}}
+  <b>Short Title: </b> {{notice.short_title}}
   <br>
   <b>Section: </b>{{notice.section_name}}
   <br>
@@ -9,8 +9,21 @@
   <b>Start Date: </b>{{notice.start_date}}
   <br>
   <b>End Date: </b>{{notice.end_date}}
+  <br>
+  <b>Category Description: </b>{{notice.category_description}}
+  <br>
 
-  </div>
+  <b>Type: </b>{{notice.type_of_notice_description}}
+  <br>
+  <b>ID: </b>
+  <input id="something"  name="noticeid" value="{{notice.request_id}}">
+  <br>
+  <button type="button" (click)="addNotices(notice.request_id, user.id)">Add To Fav</button>
+
+
 </div>
-
-  
+</div> -->
+<h2>Notice List</h2>
+<div id="notice-wrapper">
+  <app-notice *ngFor="let note of notices" [note] = 'note' [user_id]='user.id'></app-notice>
+</div>

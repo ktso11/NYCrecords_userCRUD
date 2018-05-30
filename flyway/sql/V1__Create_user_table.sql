@@ -5,4 +5,7 @@ create table USERS (
     FIRSTNAME varchar(100) NOT NULL,
     LASTNAME varchar(100) NOT NULL,
     EMAIL varchar(100) NOT NULL
+
+
 );
+

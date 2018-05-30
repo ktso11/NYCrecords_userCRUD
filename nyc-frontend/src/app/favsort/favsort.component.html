@@ -1,0 +1,8 @@
+<h2>Users Who Bookmarked {{notices[0].noticeid}}</h2>
+<div class="divstyle">
+<app-fav [notice_id]='notices[0].noticeid'></app-fav>
+</div>
+
+  <div class="divstyle" *ngFor="let notice of notices">
+    User: <a  style="color:black" [routerLink]="['/users', notice.favby]">{{notice.favby}}</a>
+  </div>
