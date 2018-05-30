@@ -22,7 +22,6 @@ export class NoticeComponent implements OnInit {
   ngOnInit() {
   }
 
-
   addNotices(){
     console.log();
     this.userService.addNotices({

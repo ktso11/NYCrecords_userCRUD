@@ -8,10 +8,12 @@
     <br>
     <b>Email: </b> <input id="edit-user-email" placeholder="{{user.email}}" [(ngModel)]="user.email" name="email">
     <br>
-    <!-- <b>Fav Notices: </b> <input id="edit-user-favnotices" placeholder="{{user.fav_notices}}" [(ngModel)]="user.fav_notices" name="fav_notices"> -->
-    <br>
     <button id="edit-user-submit" (click)="save()" type="button">Save</button>
     <button (click)="remove()" type="button"> Delete</button>
+    <button id="addnotices" (click)="displaynotice()" type="button"> Add Notices</button>
 </form>
 
-<app-noticelist></app-noticelist>
+
+<div id="noticelist" *ngIf="noticehidden">
+    <app-noticelist></app-noticelist>
+</div>

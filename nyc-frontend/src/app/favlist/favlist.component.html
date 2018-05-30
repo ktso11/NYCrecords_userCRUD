@@ -1,0 +1,13 @@
+<h2>Notices Bookmarked by Users </h2>
+<div  *ngFor="let fav of favs">
+    <div id={{fav.id}} data-user-display class="divstyle">
+
+      <b>Notice# </b> <a id={{fav.noticeid}} class="grabme" (click)="callapi()" >{{fav.noticeid}}</a>
+      <br>
+      <b>Favorited By User: </b> <a class="a2black"[routerLink]="['/users', fav.favby]"> {{fav.favby}}</a>
+      <br>
+      <app-fav [notice_id]='fav.noticeid'></app-fav>
+    </div>
+</div>
+  
+    

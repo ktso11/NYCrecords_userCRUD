@@ -11,6 +11,8 @@ import { UseraddComponent } from './useradd/useradd.component';
 import { UsereditComponent } from './useredit/useredit.component';
 import { NoticelistComponent } from './noticelist/noticelist.component';
 import { NoticeComponent } from './notice/notice.component';
+import { FavComponent } from './fav/fav.component';
+import { FavlistComponent } from './favlist/favlist.component';
 
 const appRoutes: Routes = [
 
@@ -34,6 +36,14 @@ const appRoutes: Routes = [
     path: 'noticelist/:id',
     component: NoticeComponent
   }
+  ,{
+    path: 'favlist',
+    component: FavlistComponent
+  }
+  ,{
+    path: 'notice/:id',
+    component: NoticeComponent
+  }
 ];
 @NgModule({
   declarations: [
@@ -42,7 +52,9 @@ const appRoutes: Routes = [
     UseraddComponent,
     UsereditComponent,
     NoticelistComponent,
-    NoticeComponent
+    NoticeComponent,
+    FavComponent,
+    FavlistComponent
   ],
   imports: [
     BrowserModule,

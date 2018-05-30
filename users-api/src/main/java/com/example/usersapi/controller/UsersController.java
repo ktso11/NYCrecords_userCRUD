@@ -40,7 +40,6 @@ public class UsersController {
         userFromDb.setFirstname(userRequest.getFirstname());
         userFromDb.setLastname(userRequest.getLastname());
         userFromDb.setEmail(userRequest.getEmail());
-        userFromDb.setFav_notices(userRequest.getFav_notices());
         return userRepository.save(userFromDb);
     }
 

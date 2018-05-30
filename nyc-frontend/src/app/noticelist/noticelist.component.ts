@@ -24,7 +24,7 @@ export class NoticelistComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.userService.getNotices()
+    this.userService.getAPI()
     .subscribe(response =>{this.notices = response; 
       console.log(this.notices)});
    

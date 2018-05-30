@@ -12,6 +12,7 @@ import { Subscription } from 'rxjs';
 export class UsereditComponent implements OnInit {
   user: any = {};
   sub: Subscription;
+  noticehidden= false;
   id: any;
   constructor(
     private router: Router,
@@ -28,6 +29,10 @@ export class UsereditComponent implements OnInit {
 
     });
   }
+displaynotice(){
+  this.noticehidden = !this.noticehidden;
+}
+
   remove(){
     this.userService.remove(this.user.id).subscribe(respond=>
       { this.router.navigate(['/users'])})

@@ -22,9 +22,24 @@ sourceCompatibility = 1.8
 repositories {
 	mavenCentral()
 }
-
+dependencyManagement {
+	imports {
+		mavenBom 'org.springframework.cloud:spring-cloud-netflix:1.4.0.RELEASE'
+	}
+}
 
 dependencies {
-	compile('org.springframework.boot:spring-boot-starter')
-	testCompile('org.springframework.boot:spring-boot-starter-test')
+	compile 'org.springframework.cloud:spring-cloud-starter-eureka'
+	compile 'org.springframework.boot:spring-boot-starter-web'
+	compileOnly 'org.projectlombok:lombok'
+	runtime 'org.postgresql:postgresql'
+	compile 'com.google.guava:guava:25.0-jre'
+	compile 'org.springframework.boot:spring-boot-starter-data-jpa'
+	testCompile 'org.seleniumhq.selenium:selenium-java:3.9.1'
+	testCompile 'org.seleniumhq.selenium:selenium-api:3.9.1'
+	testCompile 'org.seleniumhq.selenium:selenium-remote-driver:3.9.1'
+	testCompile 'org.seleniumhq.selenium:selenium-chrome-driver:3.9.1'
+	testCompile 'org.seleniumhq.selenium:selenium-support:3.9.1'
+	testCompile 'com.codeborne:selenide:4.10.01'
+	testCompile 'org.springframework.boot:spring-boot-starter-test'
 }
