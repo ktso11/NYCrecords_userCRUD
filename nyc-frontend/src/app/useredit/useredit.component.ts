@@ -25,7 +25,7 @@ export class UsereditComponent implements OnInit {
       const id = params['id'];
       this.userService.get(id)
       .subscribe(response =>{this.user = response})
-      // console.log(`Grabbed user ID: '${id}'`);
+   
 
     });
   }

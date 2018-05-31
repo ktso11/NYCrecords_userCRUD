@@ -4,7 +4,7 @@
 
       <b>Notice# </b> <span>{{fav.noticeid}}</span>
       <br>
-      <b>Favorited By User: </b> <a style="color:black" [routerLink]="['/users', fav.favby]"> {{fav.favby}}</a>
+      <b>Favorited By User: </b> <span style="color:black" [routerLink]="['/users', fav.favby]"> {{fav.favby}}</span>
       <br>
       <button type="submit"><a [routerLink]="['/favsort', fav.noticeid]">Sort By This ID</a></button>
       <app-fav [notice_id]='fav.noticeid'></app-fav>

@@ -2,7 +2,7 @@ import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import {User} from './types/user';
 import {environment} from './../environments/environment';
-import { Http } from '@angular/http';
+
 
 @Injectable({
   providedIn: 'root'
@@ -11,7 +11,7 @@ export class UserService {
 
   constructor(
     private httpClient: HttpClient,
-    private http: Http
+
   ) { }
 
   getAllUsers() {
@@ -41,12 +41,12 @@ export class UserService {
   getAPI(){
     return this.httpClient.get('https://data.cityofnewyork.us/resource/buex-bi6w.json?TypeOfNoticeDescription=Solicitation&$limit=10');
   }
-  // getOneAPI(id: string) {
-  //   return this.httpClient.get(`https://data.cityofnewyork.us/resource/buex-bi6w.json?request_id=${id}`);
-  // }
   getOneAPI(id: string) {
-    return this.http.get('https://data.cityofnewyork.us/resource/buex-bi6w.json?request_id='+ id);
+    return this.httpClient.get(`https://data.cityofnewyork.us/resource/buex-bi6w.json?request_id=${id}`);
   }
+  // getOneAPI(id: string) {
+  //   return this.http.get('https://data.cityofnewyork.us/resource/buex-bi6w.json?request_id='+ id);
+  // }
 
   getOneNotice(id: string) {
     return this.httpClient.get(`/api/notices/${id}`);
@@ -63,5 +63,4 @@ export class UserService {
     return this.httpClient.get(`/api/notices/sort/${noticeid}`);
   }
 
-  //create a method to get one single API
 }

@@ -2,46 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7662058a-2f14-4822-a68a-f5da9965ad73" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/modules-2.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/modules-2/modules-2.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/caches/transforms-1/transforms-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/caches/transforms-1/transforms-1.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-28.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/daemon-28.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/api-gateway/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/modules-2.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/modules-2/modules-2.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/caches/transforms-1/transforms-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/caches/transforms-1/transforms-1.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-28.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/daemon-28.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/eureka-server/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/flyway/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/flyway/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/cache/caches/modules-2/modules-2.lock" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/caches/modules-2/modules-2.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/cache/caches/transforms-1/transforms-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/caches/transforms-1/transforms-1.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/daemon-28.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/daemon-28.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/daemon-29.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/daemon-29.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/src/main/java/com/example/noticeapi/controller/NoticeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/src/main/java/com/example/noticeapi/controller/NoticeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/src/main/java/com/example/noticeapi/models/Notice.java" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/src/main/java/com/example/noticeapi/models/Notice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/notice-api/src/main/java/com/example/noticeapi/repositories/NoticeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/notice-api/src/main/java/com/example/noticeapi/repositories/NoticeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyc-frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nyc-frontend/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyc-frontend/src/app/favsort/favsort.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/nyc-frontend/src/app/favsort/favsort.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyc-frontend/src/app/favsort/favsort.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nyc-frontend/src/app/favsort/favsort.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyc-frontend/src/app/user.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nyc-frontend/src/app/user.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nyc-frontend/src/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/nyc-frontend/src/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/caches/4.5.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/caches/modules-2/modules-2.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/caches/modules-2/modules-2.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/caches/transforms-1/transforms-1.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/caches/transforms-1/transforms-1.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nyc-frontend/karma.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/nyc-frontend/karma.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nyc-frontend/src/app/user.service.spec.ts" beforeDir="false" afterPath="$PROJECT_DIR$/nyc-frontend/src/app/user.service.spec.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-27.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-27.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-28.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-28.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-29.out.log" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/daemon-29.out.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin.lock" beforeDir="false" afterPath="$PROJECT_DIR$/users-api/cache/daemon/4.5.1/registry.bin.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
