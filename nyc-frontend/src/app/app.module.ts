@@ -46,7 +46,7 @@ const appRoutes: Routes = [
     component: NoticeComponent
   }
   ,{
-    path: 'favsort/:id',
+    path: 'favsort/:noticeid',
     component: FavsortComponent
   }
 ];

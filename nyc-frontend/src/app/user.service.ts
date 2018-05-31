@@ -60,7 +60,7 @@ export class UserService {
     return this.httpClient.get(`/api/notices/`)
   }
   sortNotice(noticeid: string) {
-    return this.httpClient.get(`/api/notices/?noticeid=${noticeid}`);
+    return this.httpClient.get(`/api/notices/sort/${noticeid}`);
   }
 
   //create a method to get one single API

@@ -27,6 +27,7 @@ a:active {
         margin: 1em auto;
         letter-spacing: .1em;
         padding-left: 3em;
+        border: .05em solid lightgray;
 }
 input {
     width: 50%;

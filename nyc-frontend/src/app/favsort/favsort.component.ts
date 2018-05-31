@@ -1,7 +1,7 @@
 import { UserService } from './../user.service';
 import { ActivatedRoute } from '@angular/router';
 import { Subscription } from 'rxjs';
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-favsort',
@@ -10,8 +10,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FavsortComponent implements OnInit {
   sub: Subscription;
-  notices
+  noticeid: any;
+  favs: any ={};
+  notices;
   jsonhidden= false;
+  // @Input('notice_id')
+  // notice_id;
 
   constructor(
     private route: ActivatedRoute,
@@ -21,13 +25,20 @@ export class FavsortComponent implements OnInit {
 
   ngOnInit() {
     this.sub = this.route.params.subscribe(params => {
-      const id = params['noticeid'];
-      this.userService.sortNotice(id)
+      const noticeid = params['noticeid'];
+      this.userService.sortNotice(noticeid)
       .subscribe(response =>{this.notices = response
-        console.log(this.notices)
+        console.log(`"this arr should have id: '${noticeid}'`)
       })
+
+      this.userService.getFavNotices()
+      .subscribe(response =>{this.favs = response});
     });
 
   }
+  // getItems() {
+  //   return this.favs.fliter((fav) => fav.noticeid === this.noticeid);
+  // }
+  
 
 }
