@@ -28,13 +28,13 @@ export class NoticelistComponent implements OnInit {
     .subscribe(response =>{this.notices = response; 
       console.log(this.notices)});
    
-    // this.sub = this.route.params.subscribe(params => {
-    //   const id = params['id'];
-    //   this.userService.get(id)
-    //   .subscribe(response =>{this.user = response})
-    //   console.log(`Grabbed user ID: '${id}'`);
+    this.sub = this.route.params.subscribe(params => {
+      const id = params['id'];
+      this.userService.get(id)
+      .subscribe(response =>{this.user = response})
+      console.log(`Grabbed user ID: '${id}'`);
 
-    // })
+    })
   }
   // addNotices(data){
   //   console.log(data);
