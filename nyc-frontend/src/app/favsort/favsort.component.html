@@ -1,0 +1,10 @@
+<input type="text" [(ngModel)]="searchText" (keyup)="findUsers()">
+{{searchText}}
+
+
+  <!-- <div *ngFor="let ab of abc | filter: searchText"> -->
+  <div *ngFor="let ab of favs">
+    <span>{{ab.noticeid}} </span>
+  </div>
+
+  

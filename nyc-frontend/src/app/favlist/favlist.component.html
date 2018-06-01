@@ -1,0 +1,33 @@
+<h2>Notices Bookmarked by Users </h2>
+
+<!--<app-favsort></app-favsort>-->
+<div id="searchid">
+  <input type="text" [(ngModel)]="searchText" id="searchid" placeholder="Search By Notice#" >
+</div>
+  <div  *ngFor="let fav of favs">
+  <!-- <div *ngIf="fav.noticeid.includes(searchText); emptyInput"> -->
+      <div *ngIf="fav.noticeid.includes(searchText)"> 
+    <div id={{fav.id}} data-user-display class="divstyle" >
+
+      <b>Notice# </b> <span>{{fav.noticeid}}</span>
+      <br>
+      <b>Favorited By User: </b> <span style="color:black" [routerLink]="['/users', fav.favby]"> {{fav.favby}}</span>
+      <br>
+      <!-- <button type="submit"><a [routerLink]="['/favsort', fav.noticeid]">Sort By This ID</a></button> -->
+      <app-fav [notice_id]='fav.noticeid'></app-fav>
+    </div>
+  </div>
+  <div *ngIf="!searchText">
+<!-- <ng-template #emptyInput> -->
+  <div id={{fav.id}} data-user-display class="divstyle" >
+    
+      <b>Notice# </b> <span>{{fav.noticeid}}</span>
+      <br>
+      <b>Favorited By User: </b> <span style="color:black" [routerLink]="['/users', fav.favby]"> {{fav.favby}}</span>
+      <br>
+      <!-- <button type="submit"><a [routerLink]="['/favsort', fav.noticeid]">Sort By This ID</a></button> -->
+      <app-fav [notice_id]='fav.noticeid'></app-fav>
+    
+  </div>
+<!-- </ng-template> -->
+</div>

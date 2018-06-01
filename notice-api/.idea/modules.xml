@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/notice-api.iml" filepath="$PROJECT_DIR$/notice-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notice-api_main.iml" filepath="$PROJECT_DIR$/.idea/modules/notice-api_main.iml" group="notice-api" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/notice-api_test.iml" filepath="$PROJECT_DIR$/.idea/modules/notice-api_test.iml" group="notice-api" />
     </modules>
   </component>
 </project>
