@@ -28,21 +28,13 @@ export class FavsortComponent implements OnInit {
   
 
   ngOnInit() {
-    // this.sub = this.route.params.subscribe(params => {
-    //   const noticeid = params['noticeid'];
-    //   this.userService.sortNotice(noticeid)
-    //   .subscribe(response =>{this.notices = response
-    //     console.log(`"this arr should have id: '${noticeid}'`)
-    //   })
-     // console.log("getFavNotice");
+
       this.userService.getFavNotices()
       .subscribe(response =>{this.favs = response});
-    // });
 
   }
 
   findUsers(){
-    //console.log("calling finduser"+this.favs[0].noticeid);
     this.favs = this.favs.filter(abc => {
       abc.noticeid.includes(this.searchText);
       console.log("favorited by: " +abc.favby);

@@ -1,15 +1,9 @@
 ### New York City Search Engine - Project 3
 
-The City would like the ability to save and manage User information. 
+The City would like the ability to save and manage User information && fav notices
 
 This is the current site, use your jump off point:
 https://a856-cityrecord.nyc.gov/
-
-
-API Docs:
-
-- https://dev.socrata.com/foundry/data.cityofnewyork.us/buex-bi6w
-- https://dev.socrata.com/
 
 API endpoints
 
@@ -20,9 +14,12 @@ API endpoints
 Features:
 - perform user full-CRUD (create, read, update, delete) functionality
 - Spring to add a new Users service
-- Communicate with your back-end API in order to manage User information
+- Spring to add a new Notice service
+- Communicate with your back-end API in order to manage User and Notices information
 - Feature test and unit test
 
+Temporary AWS host:
+- http://seca-nyc-app.s3-website.us-east-2.amazonaws.com/
 
 How to Start:
 - Open terminal

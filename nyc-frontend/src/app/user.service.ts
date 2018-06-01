@@ -15,25 +15,27 @@ export class UserService {
   ) { }
 
   getAllUsers() {
-    return this.httpClient.get<User[]>('/api/users');
-    // return this.httpClient.get<User[]>(`${environment.apiHost}/api/users`);
+    // return this.httpClient.get<User[]>('/api/users');
+    return this.httpClient.get<User[]>(`${environment.apiHost}/api/users`);
   }
 
   get(id: string) {
-    return this.httpClient.get<User>(`/api/users/${id}`);
+    // return this.httpClient.get<User>(`/api/users/${id}`);
+    return this.httpClient.get<User>(`${environment.apiHost}/api/users/${id}`);
   }
 
   add(user: User){
-    return this.httpClient.post<User>(
-      '/api/users', user
-    );
+    // return this.httpClient.post<User>('/api/users', user
+    return this.httpClient.post<User>(`${environment.apiHost}/api/users/`, user);
   }
   remove(id: string){
-    return this.httpClient.delete(`/api/users/${id}`);
+    // return this.httpClient.delete(`/api/users/${id}`);
+    return this.httpClient.delete(`${environment.apiHost}/api/users/${id}`);
   }
 
   save(updateduser) {
-    return this.httpClient.patch(`/api/users/` + updateduser.id,
+    // return this.httpClient.patch(`/api/users/` + updateduser.id,
+    return this.httpClient.patch(`${environment.apiHost}/api/users/` + updateduser.id,
     updateduser
     );
   }
@@ -44,23 +46,21 @@ export class UserService {
   getOneAPI(id: string) {
     return this.httpClient.get(`https://data.cityofnewyork.us/resource/buex-bi6w.json?request_id=${id}`);
   }
-  // getOneAPI(id: string) {
-  //   return this.http.get('https://data.cityofnewyork.us/resource/buex-bi6w.json?request_id='+ id);
-  // }
 
   getOneNotice(id: string) {
-    return this.httpClient.get(`/api/notices/${id}`);
+    // return this.httpClient.get(`/api/notices/${id}`);
+    return this.httpClient.get(`${environment.apiHost}/api/notices/${id}`);
   }
 
   addNotices(fav){
-    return this.httpClient.post('/api/notices',fav);
+    return this.httpClient.post(`${environment.apiHost}/api/notices`,fav);
+    // return this.httpClient.post('/api/notices',fav);
   }
 
   getFavNotices(){
-    return this.httpClient.get(`/api/notices/`)
+    // return this.httpClient.get(`/api/notices/`)
+    return this.httpClient.get(`${environment.apiHost}/api/notices/`)
   }
-  sortNotice(noticeid: string) {
-    return this.httpClient.get(`/api/notices/sort/${noticeid}`);
-  }
+
 
 }
