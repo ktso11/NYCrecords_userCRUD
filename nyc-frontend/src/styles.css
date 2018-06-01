@@ -81,3 +81,13 @@ textarea{
     width: 90%;
     height: 7em;
 }
+#searchid{
+    margin: 0 auto;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#searchid input{
+    width: 100%;
+}

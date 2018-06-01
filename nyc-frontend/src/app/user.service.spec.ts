@@ -53,9 +53,13 @@ describe('UsersService', () =>{
     it('remove() should return success', async(() => {
       service.remove(this.dummyUsers)
       .subscribe(res => {
-        expect(res).toBeFalsy()
+      expect(res).toBe("OK")
 
       });
+      let mock = httpMock.expectOne('/api/users');
+      expect(mock.request.method).toBe("DELETE");
+      mock.flush("OK") //HTTP success message 
+      httpMock.verify(); //closing my mock call
     }))
 
 });

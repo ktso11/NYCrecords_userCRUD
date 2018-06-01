@@ -16,7 +16,7 @@ export class NoticelistComponent implements OnInit {
   id: any;
   user: any = {};
   
-  notices: any = {};
+  notices: any;
   constructor(
     private router: Router,
     private route: ActivatedRoute,
