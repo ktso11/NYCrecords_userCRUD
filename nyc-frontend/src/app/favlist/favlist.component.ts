@@ -10,10 +10,10 @@ import { UserService } from '../user.service';
 })
 export class FavlistComponent implements OnInit {
 
-  favs: any = {};
-
-  notice: any = {};
+  favs: any;
+  notice: any;
   sub: Subscription;
+  searchText: string;
 
   constructor(
     private route: ActivatedRoute,
@@ -21,9 +21,27 @@ export class FavlistComponent implements OnInit {
 
   ) { }
   ngOnInit() {
-    this.userService.getFavNotices()
-    .subscribe(response =>{this.favs = response});
+    this.getNotices();
   
+}
+
+getNotices(){
+  this.userService.getFavNotices()
+    .subscribe(response =>{
+      this.favs = response;
+    });
+}
+
+findUsers(){
+  if(this.searchText){
+    
+  this.favs = this.favs.filter(abc => {
+    abc.noticeid.includes(this.searchText);
+  });
+  }
+  else
+    this.getNotices();
+
 }
 
   }

@@ -17,6 +17,8 @@ public class Notice {
     @Column(name = "NOTICEID")
     private String noticeid;
 
+
+
     @Column(name = "FAVBY")
     private String favby;
 

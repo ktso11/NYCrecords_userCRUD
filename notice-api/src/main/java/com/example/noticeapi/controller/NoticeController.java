@@ -21,9 +21,9 @@ public class NoticeController {
         return noticeRepository.findOne(noticeId);
     }
 
-    @GetMapping("/{noticeNoticeId}")
-    public Notice findnoticeByNoticeId(@PathVariable Long noticeNoticeId) {
-        return noticeRepository.findByNoticeid(noticeNoticeId);
+    @GetMapping("/sort/{noticeNoticeid}")
+    public Notice findnoticeByNoticeId(@PathVariable String noticeNoticeid) {
+        return noticeRepository.findByNoticeid(noticeNoticeid);
     }
 
     @DeleteMapping("/{userId}")

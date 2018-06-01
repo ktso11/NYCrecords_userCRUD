@@ -29,8 +29,8 @@ export class FavComponent implements OnInit {
       // const id = params['id'];
       const id = this.notice_id
       this.userService.getOneAPI(id)
-      .subscribe(response =>{this.fav = response.json()[0]
-        console.log(this.fav)
+      // .subscribe(response =>{this.fav = response.json()[0]
+      .subscribe(response =>{this.fav = response
       })
     });
 

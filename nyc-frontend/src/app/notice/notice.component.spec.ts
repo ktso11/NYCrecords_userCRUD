@@ -1,3 +1,6 @@
+import { HttpClientModule } from '@angular/common/http';
+import { UserService } from './../user.service';
+import { RouterTestingModule } from '@angular/router/testing';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { NoticeComponent } from './notice.component';
@@ -8,7 +11,9 @@ describe('NoticeComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ NoticeComponent ]
+      declarations: [ NoticeComponent ],
+      imports: [ HttpClientModule, RouterTestingModule],
+      providers: [UserService]
     })
     .compileComponents();
   }));

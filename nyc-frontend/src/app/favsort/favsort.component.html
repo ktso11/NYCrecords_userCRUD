@@ -1,8 +1,10 @@
-<h2>Users Who Bookmarked {{notices[0].noticeid}}</h2>
-<div class="divstyle">
-<app-fav [notice_id]='notices[0].noticeid'></app-fav>
-</div>
+<input type="text" [(ngModel)]="searchText" (keyup)="findUsers()">
+{{searchText}}
 
-  <div class="divstyle" *ngFor="let notice of notices">
-    User: <a  style="color:black" [routerLink]="['/users', notice.favby]">{{notice.favby}}</a>
+
+  <!-- <div *ngFor="let ab of abc | filter: searchText"> -->
+  <div *ngFor="let ab of favs">
+    <span>{{ab.noticeid}} </span>
   </div>
+
+  

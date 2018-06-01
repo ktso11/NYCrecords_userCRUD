@@ -1,3 +1,4 @@
+import { ActivatedRoute } from '@angular/router';
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { FavComponent } from './fav.component';
@@ -8,7 +9,8 @@ describe('FavComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FavComponent ]
+      declarations: [ FavComponent ],
+      imports: [ ActivatedRoute],
     })
     .compileComponents();
   }));
@@ -19,7 +21,7 @@ describe('FavComponent', () => {
     fixture.detectChanges();
   });
 
-  it('should create', () => {
+  it('should create', () => { 
     expect(component).toBeTruthy();
   });
 });
