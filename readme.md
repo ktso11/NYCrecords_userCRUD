@@ -18,8 +18,9 @@ Features:
 - Communicate with your back-end API in order to manage User and Notices information
 - Feature test and unit test
 
-Temporary AWS host:
-- http://seca-nyc-app.s3-website.us-east-2.amazonaws.com/
+AWS host 
+- http://seca-nyc-app.s3-website.us-east-2.amazonaws.com/ (NO LONGER AVAILABLE)
+- due to cost, I had to remove the application from AWS, I apologize for the inconvienence, please use the instructions below to start the app on localhost.
 
 How to Start:
 - Open terminal
